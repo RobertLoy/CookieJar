@@ -5,6 +5,8 @@ public class Cake extends Dessert{
 	
 	// Class Attributes
 	private int numLayers;
+	private Slice slice; 			// Composition
+	private Frosting frosting;		// Aggregation
 	
 	// Class Constructor
 	Cake(int numLayers, int sugarAmount, String name){
@@ -16,9 +18,17 @@ public class Cake extends Dessert{
 	public int getNumLayers() {
 		return numLayers;
 	}
+	
+	public void setSlice(double size) {
+		this.slice = new Slice(size);
+	}
 
 	public void setNumLayers(int numLayers) {
 		this.numLayers = numLayers;
+	}
+	
+	public void setFrosting(Frosting frosting) {
+		this.frosting = frosting;
 	}
 	
 	// Class Methods

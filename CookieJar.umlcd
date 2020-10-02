@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_wMn7QANYEeuPeLddo3BW7g">
+  <modelElement href="CookieJar.uml#_wmz84ANYEeuPeLddo3BW7g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yVd3EANYEeuPeLddo3BW7g" sourceAnchor="156.0,0.0" targetAnchor="172.0,135.0" superClass="_yVgTUANYEeuPeLddo3BW7g" subClass="_yUnigANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wtiP8ANYEeuPeLddo3BW7g"/>
+    <bendpoints xmi:id="_luc2wQNZEeuPeLddo3BW7g" sourceY="-100" targetX="157" targetY="56"/>
+    <bendpoints xmi:id="_luc2wgNZEeuPeLddo3BW7g" sourceX="-157" sourceY="-100" targetY="56"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_yV4t0ANYEeuPeLddo3BW7g" source="_yV5U4ANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wuNlYQNYEeuPeLddo3BW7g"/>
+    <stereotypes xmi:id="_yV4t0QNYEeuPeLddo3BW7g" name="Reference">
+      <modelElement href="CookieJar.uml#_wuOMcANYEeuPeLddo3BW7g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_yV4t0gNYEeuPeLddo3BW7g" text=""/>
+    <sourceRole xmi:id="_yV4t0wNYEeuPeLddo3BW7g" aggregationKind="NONE" name="">
+      <modelElement href="CookieJar.uml#_wuNlYgNYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yV4t1ANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yV4t1QNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_yV4t1gNYEeuPeLddo3BW7g" aggregationKind="NONE" name="sc" navigable="true">
+      <modelElement href="CookieJar.uml#_wt3AEANYEeuPeLddo3BW7g"/>
+      <stereotypes xmi:id="_PcibMAQaEeuc8LixeFjAVA" name="LegacyStyledElement">
+        <modelElement href="CookieJar.uml#_wt3nIANYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <visibility xmi:id="_yV4t1wNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yV4t2ANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_yV-0cANYEeuPeLddo3BW7g" sourceAnchor="306.0,173.0" targetAnchor="113.0,0.0" target="_yVuVwANYEeuPeLddo3BW7g" source="_yWE7EANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wuKiEANYEeuPeLddo3BW7g"/>
+    <stereotypes xmi:id="_yWACkwNYEeuPeLddo3BW7g" name="Reference">
+      <modelElement href="CookieJar.uml#_wuLJIANYEeuPeLddo3BW7g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_yWACkANYEeuPeLddo3BW7g" text="">
+      <visualProperties xmi:id="_yl11YANYEeuPeLddo3BW7g" position="-49.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_yWACkQNYEeuPeLddo3BW7g" aggregationKind="NONE" name="">
+      <modelElement href="CookieJar.uml#_wuKiEQNYEeuPeLddo3BW7g"/>
+      <visualProperties xmi:id="_yl1OUwNYEeuPeLddo3BW7g" position="2.0,-2.0"/>
+      <visibility xmi:id="_yWCe0QNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWCe0ANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_yWACkgNYEeuPeLddo3BW7g" aggregationKind="NONE" name="slice" navigable="true">
+      <modelElement href="CookieJar.uml#_wtt2IANYEeuPeLddo3BW7g"/>
+      <visualProperties xmi:id="_yl2ccANYEeuPeLddo3BW7g" position="41.0,-39.0"/>
+      <stereotypes xmi:id="_Pck3cAQaEeuc8LixeFjAVA" name="LegacyStyledElement">
+        <modelElement href="CookieJar.uml#_wtudMANYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <visibility xmi:id="_yWCe0wNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWCe0gNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yV_bgANYEeuPeLddo3BW7g" sourceAnchor="204.0,0.0" targetAnchor="172.0,135.0" superClass="_yVgTUANYEeuPeLddo3BW7g" subClass="_yWE7EANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wtho4ANYEeuPeLddo3BW7g"/>
+    <bendpoints xmi:id="_lucPsANZEeuPeLddo3BW7g" sourceY="-30" targetX="-217" targetY="56"/>
+    <bendpoints xmi:id="_luc2wANZEeuPeLddo3BW7g" sourceX="217" sourceY="-30" targetY="56"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_yWEUAANYEeuPeLddo3BW7g" sourceAnchor="54.0,173.0" targetAnchor="121.0,0.0" target="_yWRvYANYEeuPeLddo3BW7g" source="_yWE7EANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wuLwMANYEeuPeLddo3BW7g"/>
+    <stereotypes xmi:id="_yWEUAQNYEeuPeLddo3BW7g" name="Reference">
+      <modelElement href="CookieJar.uml#_wuMXQANYEeuPeLddo3BW7g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_yWEUAgNYEeuPeLddo3BW7g" text="">
+      <visualProperties xmi:id="_yl3qkQNYEeuPeLddo3BW7g" position="-89.0,3.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_yWEUAwNYEeuPeLddo3BW7g" aggregationKind="NONE" name="">
+      <modelElement href="CookieJar.uml#_wuLwMQNYEeuPeLddo3BW7g"/>
+      <visualProperties xmi:id="_yl3qkANYEeuPeLddo3BW7g" position="-17.0,-2.0"/>
+      <visibility xmi:id="_yWEUBANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWEUBQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_yWEUBgNYEeuPeLddo3BW7g" aggregationKind="NONE" name="frosting" navigable="true">
+      <modelElement href="CookieJar.uml#_wtvEQANYEeuPeLddo3BW7g"/>
+      <visualProperties xmi:id="_yl4RoANYEeuPeLddo3BW7g" position="1.0,-39.0"/>
+      <stereotypes xmi:id="_PcmFkAQaEeuc8LixeFjAVA" name="LegacyStyledElement">
+        <modelElement href="CookieJar.uml#_wtvrUANYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <visibility xmi:id="_yWEUBwNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWEUCANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_yWUysANYEeuPeLddo3BW7g" sourceAnchor="230.0,77.0" targetAnchor="0.0,68.0" target="_yVgTUANYEeuPeLddo3BW7g" source="_yWX2AANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wuMXQQNYEeuPeLddo3BW7g"/>
+    <stereotypes xmi:id="_yWWA0QNYEeuPeLddo3BW7g" name="Reference">
+      <modelElement href="CookieJar.uml#_wuNlYANYEeuPeLddo3BW7g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_yWVZwANYEeuPeLddo3BW7g" text="">
+      <visualProperties xmi:id="_yl44sQNYEeuPeLddo3BW7g" position="-31.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_yWVZwQNYEeuPeLddo3BW7g" aggregationKind="NONE" name="">
+      <modelElement href="CookieJar.uml#_wuMXQgNYEeuPeLddo3BW7g"/>
+      <visualProperties xmi:id="_yl44sANYEeuPeLddo3BW7g" position="67.0,1.0"/>
+      <visibility xmi:id="_yWXO8QNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWXO8ANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_yWWA0ANYEeuPeLddo3BW7g" aggregationKind="NONE" name="sugarRush" navigable="true">
+      <modelElement href="CookieJar.uml#_wt1K4ANYEeuPeLddo3BW7g"/>
+      <visualProperties xmi:id="_yl5fwANYEeuPeLddo3BW7g" position="-82.0,-44.0"/>
+      <stereotypes xmi:id="_Pcn6wAQaEeuc8LixeFjAVA" name="LegacyStyledElement">
+        <modelElement href="CookieJar.uml#_wt2ZAANYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <visibility xmi:id="_yWXO8wNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWXO8gNYEeuPeLddo3BW7g" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yVgTUANYEeuPeLddo3BW7g" name="Dessert" abstractClass="true" associationsIn="_yWUysANYEeuPeLddo3BW7g" subclassedBy="_yVd3EANYEeuPeLddo3BW7g _yV_bgANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wn_ooANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yVgTUQNYEeuPeLddo3BW7g" position="-213.0,-348.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yVgTUgNYEeuPeLddo3BW7g" label="+"/>
+    <attributes xmi:id="_yVgTUwNYEeuPeLddo3BW7g" defaultValue="0" name="sugarAmount">
+      <modelElement href="CookieJar.uml#_wtw5cANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yVgTVANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yVgTVQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yVgTVgNYEeuPeLddo3BW7g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yVgTVwNYEeuPeLddo3BW7g" name="name">
+      <modelElement href="CookieJar.uml#_wtxggANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yVgTWANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yVgTWQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yVgTWgNYEeuPeLddo3BW7g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yVgTWwNYEeuPeLddo3BW7g" name="Dessert">
+      <modelElement href="CookieJar.uml#_woA2wANYEeuPeLddo3BW7g"/>
+      <keywords xmi:id="_yVgTXANYEeuPeLddo3BW7g" keyword="create"/>
+      <visibility xmi:id="_yVgTXQNYEeuPeLddo3BW7g" label="~"/>
+      <cardinality xmi:id="_yVgTXgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yVgTXwNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_woBd0gNYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yVgTYANYEeuPeLddo3BW7g" name="Dessert">
+          <modelElement href="CookieJar.uml#_wn_ooANYEeuPeLddo3BW7g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yVgTYQNYEeuPeLddo3BW7g" name="sugarAmount">
+        <modelElement href="CookieJar.uml#_woA2wQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yVgTYgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yVgTYwNYEeuPeLddo3BW7g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yVgTZANYEeuPeLddo3BW7g" name="name">
+        <modelElement href="CookieJar.uml#_woA2wgNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yVgTZQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yVgTZgNYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yVgTZwNYEeuPeLddo3BW7g" name="bake">
+      <modelElement href="CookieJar.uml#_woBd0wNYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yVgTaANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yVgTaQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yVgTagNYEeuPeLddo3BW7g" abstractOperation="true" name="eat">
+      <modelElement href="CookieJar.uml#_woBd1ANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yVgTawNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yVgTbANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yWX2AANYEeuPeLddo3BW7g" name="Bakery" associationsOut="_yWUysANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_woG9YANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yWX2AQNYEeuPeLddo3BW7g" position="-548.0,-357.0" size="230.0,194.0"/>
+    <visibility xmi:id="_yWX2AgNYEeuPeLddo3BW7g" label="+"/>
+    <attributes xmi:id="_yWX2AwNYEeuPeLddo3BW7g" defaultValue="&quot;GCU Bakery&quot;" name="name" staticAttribute="true">
+      <modelElement href="CookieJar.uml#_wtz8wANYEeuPeLddo3BW7g"/>
+      <stereotypes xmi:id="_yWX2BANYEeuPeLddo3BW7g" name="LegacyStyledElement">
+        <modelElement href="CookieJar.uml#_wt0j0ANYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <visibility xmi:id="_yWX2BQNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWX2BgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yWX2BwNYEeuPeLddo3BW7g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yWX2CANYEeuPeLddo3BW7g" defaultValue="new ArrayList&lt;>()" name="sugarRush">
+      <modelElement href="CookieJar.uml#_wt1K4ANYEeuPeLddo3BW7g"/>
+      <stereotypes xmi:id="_PdEmsAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PdF00AQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PdHqAAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_yWX2CgNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWX2CwNYEeuPeLddo3BW7g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_yWX2DANYEeuPeLddo3BW7g" name="Dessert">
+        <modelElement href="CookieJar.uml#_wn_ooANYEeuPeLddo3BW7g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yWX2DQNYEeuPeLddo3BW7g" name="Bakery">
+      <modelElement href="CookieJar.uml#_woIykANYEeuPeLddo3BW7g"/>
+      <keywords xmi:id="_yWX2DgNYEeuPeLddo3BW7g" keyword="create"/>
+      <visibility xmi:id="_yWX2DwNYEeuPeLddo3BW7g" label="~"/>
+      <cardinality xmi:id="_yWX2EANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yWX2EQNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_woJZoANYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yWX2EgNYEeuPeLddo3BW7g" name="Bakery">
+          <modelElement href="CookieJar.uml#_woG9YANYEeuPeLddo3BW7g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yWX2EwNYEeuPeLddo3BW7g" name="name">
+        <modelElement href="CookieJar.uml#_woIykQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yWX2FANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yWX2FQNYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yWX2FgNYEeuPeLddo3BW7g" name="open">
+      <modelElement href="CookieJar.uml#_woJZoQNYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWX2FwNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWX2GANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yWX2GQNYEeuPeLddo3BW7g" name="addCake">
+      <modelElement href="CookieJar.uml#_woKAsANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWX2GgNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWX2GwNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yWX2HANYEeuPeLddo3BW7g" name="addCookie">
+      <modelElement href="CookieJar.uml#_woKAsQNYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWX2HQNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWX2HgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yWX2HwNYEeuPeLddo3BW7g" name="showDesserts">
+      <modelElement href="CookieJar.uml#_woKnwANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWX2IANYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWX2IQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yWX2IgNYEeuPeLddo3BW7g" name="updateDessert">
+      <modelElement href="CookieJar.uml#_woKnwQNYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWX2IwNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWX2JANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yWX2JQNYEeuPeLddo3BW7g" name="deleteDessert">
+      <modelElement href="CookieJar.uml#_woKnwgNYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWX2JgNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWX2JwNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yWE7EANYEeuPeLddo3BW7g" name="Cake" associationsOut="_yV-0cANYEeuPeLddo3BW7g _yWEUAANYEeuPeLddo3BW7g" generalizations="_yV_bgANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wnpDUANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yWE7EQNYEeuPeLddo3BW7g" position="-462.0,-127.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yWE7EgNYEeuPeLddo3BW7g" label="+"/>
+    <attributes xmi:id="_yWE7EwNYEeuPeLddo3BW7g" name="numLayers">
+      <modelElement href="CookieJar.uml#_wttPEANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWE7FANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWE7FQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yWE7FgNYEeuPeLddo3BW7g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yWE7FwNYEeuPeLddo3BW7g" name="slice">
+      <modelElement href="CookieJar.uml#_wtt2IANYEeuPeLddo3BW7g"/>
+      <stereotypes xmi:id="_PdA8UAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PdBjYAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PdIREAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_yWE7GQNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWE7GgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yWE7GwNYEeuPeLddo3BW7g" name="Slice">
+        <modelElement href="CookieJar.uml#_woEhIANYEeuPeLddo3BW7g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yWE7HANYEeuPeLddo3BW7g" name="frosting">
+      <modelElement href="CookieJar.uml#_wtvEQANYEeuPeLddo3BW7g"/>
+      <stereotypes xmi:id="_PdCxgAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PdDYkAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PdI4IAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_yWE7HgNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yWE7HwNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yWE7IANYEeuPeLddo3BW7g" name="Frosting">
+        <modelElement href="CookieJar.uml#_woCE4ANYEeuPeLddo3BW7g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yWE7IQNYEeuPeLddo3BW7g" name="Cake">
+      <modelElement href="CookieJar.uml#_wnrfkANYEeuPeLddo3BW7g"/>
+      <keywords xmi:id="_yWE7IgNYEeuPeLddo3BW7g" keyword="create"/>
+      <visibility xmi:id="_yWE7IwNYEeuPeLddo3BW7g" label="~"/>
+      <cardinality xmi:id="_yWE7JANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yWE7JQNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_wnstsANYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yWE7JgNYEeuPeLddo3BW7g" name="Cake">
+          <modelElement href="CookieJar.uml#_wnpDUANYEeuPeLddo3BW7g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yWE7JwNYEeuPeLddo3BW7g" name="numLayers">
+        <modelElement href="CookieJar.uml#_wnrfkQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yWE7KANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yWE7KQNYEeuPeLddo3BW7g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yWE7KgNYEeuPeLddo3BW7g" name="sugarAmount">
+        <modelElement href="CookieJar.uml#_wnrfkgNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yWE7KwNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yWE7LANYEeuPeLddo3BW7g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yWE7LQNYEeuPeLddo3BW7g" name="name">
+        <modelElement href="CookieJar.uml#_wnsGoANYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yWE7LgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yWE7LwNYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yWE7MANYEeuPeLddo3BW7g" name="setSlice">
+      <modelElement href="CookieJar.uml#_wntUwANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWE7MQNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWE7MgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yWE7MwNYEeuPeLddo3BW7g" name="size">
+        <modelElement href="CookieJar.uml#_wntUwQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yWE7NANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yWE7NQNYEeuPeLddo3BW7g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yWE7NgNYEeuPeLddo3BW7g" name="decorate">
+      <modelElement href="CookieJar.uml#_wnui4ANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWE7NwNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWE7OANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yWE7OQNYEeuPeLddo3BW7g" name="eat">
+      <modelElement href="CookieJar.uml#_wnui4QNYEeuPeLddo3BW7g"/>
+      <stereotypes xmi:id="_yWE7OgNYEeuPeLddo3BW7g" name="LegacyStyledElement">
+        <modelElement href="CookieJar.uml#_wnvJ8ANYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yWE7OwNYEeuPeLddo3BW7g" name="Annotations">
+        <modelElement href="CookieJar.uml#_wnwYEANYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <visibility xmi:id="_yWE7PANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWE7PQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yWE7PgNYEeuPeLddo3BW7g" name="toString">
+      <modelElement href="CookieJar.uml#_wnw_IQNYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWE7PwNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWE7QANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yWE7QQNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_wnxmMANYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yWE7QgNYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yWE7QwNYEeuPeLddo3BW7g" name="setFrosting">
+      <modelElement href="CookieJar.uml#_wthB0ANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWE7RANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWE7RQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yWE7RgNYEeuPeLddo3BW7g" name="frosting">
+        <modelElement href="CookieJar.uml#_wthB0QNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yWE7RwNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yWE7SANYEeuPeLddo3BW7g" name="Frosting">
+          <modelElement href="CookieJar.uml#_woCE4ANYEeuPeLddo3BW7g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yVuVwANYEeuPeLddo3BW7g" name="Slice" associationsIn="_yV-0cANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_woEhIANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yVuVwQNYEeuPeLddo3BW7g" position="-269.0,83.0" size="226.0,78.0"/>
+    <visibility xmi:id="_yVuVwgNYEeuPeLddo3BW7g" label="+"/>
+    <attributes xmi:id="_yVuVwwNYEeuPeLddo3BW7g" name="size">
+      <modelElement href="CookieJar.uml#_wtzVsANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yVuVxANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yVuVxQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yVuVxgNYEeuPeLddo3BW7g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yVuVxwNYEeuPeLddo3BW7g" name="Slice">
+      <modelElement href="CookieJar.uml#_woFvQANYEeuPeLddo3BW7g"/>
+      <keywords xmi:id="_yVuVyANYEeuPeLddo3BW7g" keyword="create"/>
+      <visibility xmi:id="_yVuVyQNYEeuPeLddo3BW7g" label="~"/>
+      <cardinality xmi:id="_yVuVygNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yVuVywNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_woFvRANYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yVuVzANYEeuPeLddo3BW7g" name="Slice">
+          <modelElement href="CookieJar.uml#_woEhIANYEeuPeLddo3BW7g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yVuVzQNYEeuPeLddo3BW7g" name="size">
+        <modelElement href="CookieJar.uml#_woFvQQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yVuVzgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yVuVzwNYEeuPeLddo3BW7g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yWRvYANYEeuPeLddo3BW7g" name="Frosting" associationsIn="_yWEUAANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_woCE4ANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yWRvYQNYEeuPeLddo3BW7g" position="-529.0,83.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yWRvYgNYEeuPeLddo3BW7g" label="+"/>
+    <attributes xmi:id="_yWRvYwNYEeuPeLddo3BW7g" name="base">
+      <modelElement href="CookieJar.uml#_wtyuoANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yWRvZANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yWRvZQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yWRvZgNYEeuPeLddo3BW7g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yWRvZwNYEeuPeLddo3BW7g" name="Frosting">
+      <modelElement href="CookieJar.uml#_woDTAANYEeuPeLddo3BW7g"/>
+      <keywords xmi:id="_yWRvaANYEeuPeLddo3BW7g" keyword="create"/>
+      <visibility xmi:id="_yWRvaQNYEeuPeLddo3BW7g" label="~"/>
+      <cardinality xmi:id="_yWRvagNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yWRvawNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_woD6EQNYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yWRvbANYEeuPeLddo3BW7g" name="Frosting">
+          <modelElement href="CookieJar.uml#_woCE4ANYEeuPeLddo3BW7g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yWRvbQNYEeuPeLddo3BW7g" name="base">
+        <modelElement href="CookieJar.uml#_woDTAQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yWRvbgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yWRvbwNYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yV0cYANYEeuPeLddo3BW7g" name="Start">
+    <modelElement href="CookieJar.uml#_wnfSUANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yV0cYQNYEeuPeLddo3BW7g" position="157.0,-343.0" size="261.0,52.0"/>
+    <visibility xmi:id="_yV0cYgNYEeuPeLddo3BW7g" label="+"/>
+    <operations xmi:id="_yV0cYwNYEeuPeLddo3BW7g" name="main" staticOperation="true">
+      <modelElement href="CookieJar.uml#_wnmAAANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yV0cZANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yV0cZQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yV0cZgNYEeuPeLddo3BW7g" name="args">
+        <modelElement href="CookieJar.uml#_wnmnEANYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yV0cZwNYEeuPeLddo3BW7g" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_yV0caANYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yV5U4ANYEeuPeLddo3BW7g" name="UserInterface" associationsOut="_yV4t0ANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_woL14ANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yV5U4QNYEeuPeLddo3BW7g" position="155.0,-271.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yV5U4gNYEeuPeLddo3BW7g" label="+"/>
+    <attributes xmi:id="_yV5U4wNYEeuPeLddo3BW7g" defaultValue="new Scanner(System.in)" name="sc" staticAttribute="true">
+      <modelElement href="CookieJar.uml#_wt3AEANYEeuPeLddo3BW7g"/>
+      <stereotypes xmi:id="_Pc9R8AQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Pc_uMAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_PdKGQAQaEeuc8LixeFjAVA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_yV5U5QNYEeuPeLddo3BW7g" label="-"/>
+      <cardinality xmi:id="_yV5U5gNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yV5U5wNYEeuPeLddo3BW7g" name="Scanner">
+        <modelElement href="CookieJar.uml#_wtksMANYEeuPeLddo3BW7g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yV5U6ANYEeuPeLddo3BW7g" name="mainMenu" staticOperation="true">
+      <modelElement href="CookieJar.uml#_woNEAANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yV5U6QNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yV5U6gNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yV5U6wNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_woNrEANYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yV5U7ANYEeuPeLddo3BW7g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yV5U7QNYEeuPeLddo3BW7g" name="name">
+        <modelElement href="CookieJar.uml#_woNEAQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yV5U7gNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yV5U7wNYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yV5U8ANYEeuPeLddo3BW7g" name="display" staticOperation="true">
+      <modelElement href="CookieJar.uml#_wtqLwANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yV5U8QNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yV5U8gNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yV5U8wNYEeuPeLddo3BW7g" name="sugarRush">
+        <modelElement href="CookieJar.uml#_wtqLwQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yV5U9ANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yV5U9QNYEeuPeLddo3BW7g" name="List">
+          <modelElement href="CookieJar.uml#_wtfMoANYEeuPeLddo3BW7g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yVxZEANYEeuPeLddo3BW7g" name="DataServices">
+    <modelElement href="CookieJar.uml#_wn6wIANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yVxZEQNYEeuPeLddo3BW7g" position="153.0,-152.0" size="263.0,71.0"/>
+    <visibility xmi:id="_yVxZEgNYEeuPeLddo3BW7g" label="+"/>
+    <operations xmi:id="_yVxZEwNYEeuPeLddo3BW7g" name="read" staticOperation="true">
+      <modelElement href="CookieJar.uml#_wn7-QANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yVxZFANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yVxZFQNYEeuPeLddo3BW7g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_yVxZFgNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_wn8lUANYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yVxZFwNYEeuPeLddo3BW7g" name="Dessert">
+          <modelElement href="CookieJar.uml#_wn_ooANYEeuPeLddo3BW7g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yVxZGANYEeuPeLddo3BW7g" name="write" staticOperation="true">
+      <modelElement href="CookieJar.uml#_wtoWkANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yVxZGQNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yVxZGgNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yVxZGwNYEeuPeLddo3BW7g" name="sugarRush">
+        <modelElement href="CookieJar.uml#_wtoWkQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yVxZHANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yVxZHQNYEeuPeLddo3BW7g" name="List">
+          <modelElement href="CookieJar.uml#_wtfMoANYEeuPeLddo3BW7g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yUnigANYEeuPeLddo3BW7g" name="Cookie" generalizations="_yVd3EANYEeuPeLddo3BW7g">
+    <modelElement href="CookieJar.uml#_wn13oANYEeuPeLddo3BW7g"/>
+    <visualProperties xmi:id="_yUnigQNYEeuPeLddo3BW7g" position="-40.0,-57.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yUniggNYEeuPeLddo3BW7g" label="+"/>
+    <attributes xmi:id="_yUnigwNYEeuPeLddo3BW7g" name="mixIn">
+      <modelElement href="CookieJar.uml#_wtwSYANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yUnihANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yUnihQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <type xmi:id="_yUnihgNYEeuPeLddo3BW7g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yUnihwNYEeuPeLddo3BW7g" name="Cookie">
+      <modelElement href="CookieJar.uml#_wn3FwANYEeuPeLddo3BW7g"/>
+      <keywords xmi:id="_yUniiANYEeuPeLddo3BW7g" keyword="create"/>
+      <visibility xmi:id="_yUniiQNYEeuPeLddo3BW7g" label="~"/>
+      <cardinality xmi:id="_yUniigNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yUniiwNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_wn3s0gNYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yUnijANYEeuPeLddo3BW7g" name="Cookie">
+          <modelElement href="CookieJar.uml#_wn13oANYEeuPeLddo3BW7g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yUoJkANYEeuPeLddo3BW7g" name="sugarAmount">
+        <modelElement href="CookieJar.uml#_wn3FwQNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yUoJkQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yUoJkgNYEeuPeLddo3BW7g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yUoJkwNYEeuPeLddo3BW7g" name="name">
+        <modelElement href="CookieJar.uml#_wn3FwgNYEeuPeLddo3BW7g"/>
+        <cardinality xmi:id="_yUoJlANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+        <type xmi:id="_yUoJlQNYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yUoJlgNYEeuPeLddo3BW7g" name="putInJar">
+      <modelElement href="CookieJar.uml#_wn4T4ANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yUoJlwNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yUoJmANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yUoJmQNYEeuPeLddo3BW7g" name="eat">
+      <modelElement href="CookieJar.uml#_wn4T4QNYEeuPeLddo3BW7g"/>
+      <stereotypes xmi:id="_yUoJmgNYEeuPeLddo3BW7g" name="LegacyStyledElement">
+        <modelElement href="CookieJar.uml#_wn468ANYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yUoJmwNYEeuPeLddo3BW7g" name="Annotations">
+        <modelElement href="CookieJar.uml#_wn468QNYEeuPeLddo3BW7g"/>
+      </stereotypes>
+      <visibility xmi:id="_yUoJnANYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yUoJnQNYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yUoJngNYEeuPeLddo3BW7g" name="toString">
+      <modelElement href="CookieJar.uml#_wn5iAANYEeuPeLddo3BW7g"/>
+      <visibility xmi:id="_yUoJnwNYEeuPeLddo3BW7g" label="+"/>
+      <cardinality xmi:id="_yUoJoANYEeuPeLddo3BW7g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yUoJoQNYEeuPeLddo3BW7g">
+        <modelElement href="CookieJar.uml#_wn5iAQNYEeuPeLddo3BW7g"/>
+        <type xmi:id="_yUoJogNYEeuPeLddo3BW7g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

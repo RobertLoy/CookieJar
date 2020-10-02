@@ -14,13 +14,14 @@ public class UserInterface {
 		int option = 0;
 		// Using a try since we are looking for an int and user may enter a char or String
 		try {
-			System.out.println("Welcome to " + name);
+			System.out.println("\n\nWelcome to " + name);
 			System.out.println("====================");
 			System.out.println("1) Add Cake");
 			System.out.println("2) Add Cookie");
 			System.out.println("3) See all Desserts");
-			System.out.println("4) Update a Dessert");
-			System.out.println("5) Delete a Dessert");
+			System.out.println("4) See details of a Dessert");
+			System.out.println("5) Update a Dessert");
+			System.out.println("6) Delete a Dessert");
 			System.out.println("0) Exit");
 			System.out.println("Which option : ");
 			option = sc.nextInt();
@@ -40,14 +41,12 @@ public class UserInterface {
 	}
 
 	// Used to display the items in the List<Dessert>
-	public static void display(List<Dessert> sugarRush) {
-		
-		System.out.println("\n\nDISPLAYING DESSERTS ...");
+	public static void displayAll(List<Dessert> sugarRush) {
 		
 		int counter = 0;
 		// Printing out the menu items
 		for (Dessert item : sugarRush) {
-			System.out.println(counter++ + "]" + item);
+			System.out.println(counter++ + "]" + item.toMenuString());
 		}
 	}
 }

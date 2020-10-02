@@ -32,9 +32,17 @@ public class Cookie extends Dessert {
 		
 	}
 	
-	// Common @Override Methods
-	public String toString() {		
+	// Special printout used for menu
+	@Override
+	public String toMenuString() {		
 		return super.getName() + " cookie with " + mixIn;
+	}
+
+	// Common @Override Methods
+	@Override
+	public String toString() {
+		return "Cookie [mixIn=" + mixIn + ", getMixIn()=" + getMixIn() + ", toMenuString()=" + toMenuString()
+				+ ", getSugarAmount()=" + getSugarAmount() + ", getName()=" + getName() + "]";
 	}
 
 }

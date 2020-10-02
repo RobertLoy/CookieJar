@@ -38,5 +38,6 @@ public abstract class Dessert {
 	
 	// Parent Abstract Methods - Abstract Version
 	public abstract void eat();
+	public abstract String toMenuString();
 
 }

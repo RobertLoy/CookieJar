@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_u-3HoANYEeuPeLddo3BW7g" name="CookieJar">
+    <eAnnotations xmi:id="_wa6O4ANYEeuPeLddo3BW7g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_wa6O4QNYEeuPeLddo3BW7g" source="codegen">
+        <details xmi:id="_wa6O4gNYEeuPeLddo3BW7g" key="codegenDirectory" value="/CookieJar/src"/>
+        <details xmi:id="_yUV1sANYEeuPeLddo3BW7g" key="AssociatedSourceCode" value="/CookieJar/src/cst135n/milestone/practice/Start.java;3000591700/1;/CookieJar/src/cst135n/milestone/practice/Cake.java;633943448/1;/CookieJar/src/cst135n/milestone/practice/Cookie.java;3510733343/1;/CookieJar/src/cst135n/milestone/practice/DataServices.java;3004636406/1;/CookieJar/src/cst135n/milestone/practice/Dessert.java;1484361561/1;/CookieJar/src/cst135n/milestone/practice/Frosting.java;1109426473/1;/CookieJar/src/cst135n/milestone/practice/Slice.java;172458986/1;/CookieJar/src/cst135n/milestone/practice/Bakery.java;503453305/1;/CookieJar/src/cst135n/milestone/practice/UserInterface.java;547462906/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_wnkK0ANYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_wnkK0QNYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_wnkx4ANYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_wnkx4QNYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_wnkx4gNYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_wnkx4wNYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_wnkx5ANYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_wnkx5QNYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_wnlY8ANYEeuPeLddo3BW7g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wmsoIANYEeuPeLddo3BW7g" name="cst135n">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wmtPMANYEeuPeLddo3BW7g" name="milestone">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wmz84ANYEeuPeLddo3BW7g" name="practice">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wnfSUANYEeuPeLddo3BW7g" name="Start">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wt9twANYEeuPeLddo3BW7g" name="main" specification="_wnmAAANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wt9twQNYEeuPeLddo3BW7g" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wt9twgNYEeuPeLddo3BW7g" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Bakery bakery = new Bakery(&quot;GCU Bakery&quot;);
+		bakery.open();
+
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_wnmAAANYEeuPeLddo3BW7g" name="main" isStatic="true" method="_wt9twANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wnmnEANYEeuPeLddo3BW7g" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wnn1MANYEeuPeLddo3BW7g" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wnpDUANYEeuPeLddo3BW7g" name="Cake">
+            <generalization xmi:id="_wtho4ANYEeuPeLddo3BW7g" general="_wn_ooANYEeuPeLddo3BW7g"/>
+            <ownedAttribute xmi:id="_wttPEANYEeuPeLddo3BW7g" name="numLayers">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wtt2IANYEeuPeLddo3BW7g" name="slice" visibility="private" type="_woEhIANYEeuPeLddo3BW7g" association="_wuKiEANYEeuPeLddo3BW7g"/>
+            <ownedAttribute xmi:id="_wtvEQANYEeuPeLddo3BW7g" name="frosting" visibility="private" type="_woCE4ANYEeuPeLddo3BW7g" association="_wuLwMANYEeuPeLddo3BW7g"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuAxEANYEeuPeLddo3BW7g" name="Cake" specification="_wnrfkANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuAxEQNYEeuPeLddo3BW7g" name="numLayers">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuAxEgNYEeuPeLddo3BW7g" name="sugarAmount">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuAxEwNYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuAxFANYEeuPeLddo3BW7g" type="_wnpDUANYEeuPeLddo3BW7g" direction="return"/>
+              <language>java</language>
+              <body>super(sugarAmount, name);
+		this.numLayers = numLayers;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuAxFQNYEeuPeLddo3BW7g" name="setSlice" specification="_wntUwANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuAxFgNYEeuPeLddo3BW7g" name="size">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.slice = new Slice(size);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuBYIANYEeuPeLddo3BW7g" name="setFrosting" specification="_wthB0ANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuBYIQNYEeuPeLddo3BW7g" name="frosting" type="_woCE4ANYEeuPeLddo3BW7g"/>
+              <language>java</language>
+              <body>this.frosting = frosting;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuBYIgNYEeuPeLddo3BW7g" name="decorate" specification="_wnui4ANYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.println(&quot;Adding pretty stuff...&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuB_MANYEeuPeLddo3BW7g" name="eat" specification="_wnui4QNYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.print(&quot;Eating with a fork... &quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuB_MQNYEeuPeLddo3BW7g" name="toString" specification="_wnw_IQNYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuB_MgNYEeuPeLddo3BW7g" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getName() + &quot; cake with &quot; + numLayers + &quot; layer(s).&quot;;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_wnrfkANYEeuPeLddo3BW7g" name="Cake" visibility="package" method="_wuAxEANYEeuPeLddo3BW7g">
+              <eAnnotations xmi:id="_wnsGoQNYEeuPeLddo3BW7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_wnsGogNYEeuPeLddo3BW7g" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_wnrfkQNYEeuPeLddo3BW7g" name="numLayers">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wnrfkgNYEeuPeLddo3BW7g" name="sugarAmount">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wnsGoANYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wnstsANYEeuPeLddo3BW7g" type="_wnpDUANYEeuPeLddo3BW7g" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wntUwANYEeuPeLddo3BW7g" name="setSlice" method="_wuAxFQNYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wntUwQNYEeuPeLddo3BW7g" name="size">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wnui4ANYEeuPeLddo3BW7g" name="decorate" method="_wuBYIgNYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_wnui4QNYEeuPeLddo3BW7g" name="eat" method="_wuB_MANYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_wnw_IQNYEeuPeLddo3BW7g" name="toString" method="_wuB_MQNYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wnxmMANYEeuPeLddo3BW7g" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wthB0ANYEeuPeLddo3BW7g" name="setFrosting" method="_wuBYIANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wthB0QNYEeuPeLddo3BW7g" name="frosting" type="_woCE4ANYEeuPeLddo3BW7g"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wn13oANYEeuPeLddo3BW7g" name="Cookie">
+            <generalization xmi:id="_wtiP8ANYEeuPeLddo3BW7g" general="_wn_ooANYEeuPeLddo3BW7g"/>
+            <ownedAttribute xmi:id="_wtwSYANYEeuPeLddo3BW7g" name="mixIn">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuCmQANYEeuPeLddo3BW7g" name="Cookie" specification="_wn3FwANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuCmQQNYEeuPeLddo3BW7g" name="sugarAmount">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuCmQgNYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuCmQwNYEeuPeLddo3BW7g" type="_wn13oANYEeuPeLddo3BW7g" direction="return"/>
+              <language>java</language>
+              <body>super(sugarAmount, name);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuCmRANYEeuPeLddo3BW7g" name="putInJar" specification="_wn4T4ANYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.println(&quot;Storing...&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuCmRQNYEeuPeLddo3BW7g" name="eat" specification="_wn4T4QNYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.print(&quot;Eating with fingers... &quot;);
+		
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuDNUANYEeuPeLddo3BW7g" name="toString" specification="_wn5iAANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuDNUQNYEeuPeLddo3BW7g" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getName() + &quot; cookie with &quot; + mixIn;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_wn3FwANYEeuPeLddo3BW7g" name="Cookie" visibility="package" method="_wuCmQANYEeuPeLddo3BW7g">
+              <eAnnotations xmi:id="_wn3s0ANYEeuPeLddo3BW7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_wn3s0QNYEeuPeLddo3BW7g" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_wn3FwQNYEeuPeLddo3BW7g" name="sugarAmount">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wn3FwgNYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wn3s0gNYEeuPeLddo3BW7g" type="_wn13oANYEeuPeLddo3BW7g" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wn4T4ANYEeuPeLddo3BW7g" name="putInJar" method="_wuCmRANYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_wn4T4QNYEeuPeLddo3BW7g" name="eat" method="_wuCmRQNYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_wn5iAANYEeuPeLddo3BW7g" name="toString" method="_wuDNUANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wn5iAQNYEeuPeLddo3BW7g" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wn6wIANYEeuPeLddo3BW7g" name="DataServices">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuDNUgNYEeuPeLddo3BW7g" name="write" specification="_wtoWkANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuDNUwNYEeuPeLddo3BW7g" name="sugarRush" type="_wtfMoANYEeuPeLddo3BW7g"/>
+              <language>java</language>
+              <body>System.out.println(&quot;\n\nWRITING OUTPUT ... &quot;);
+		
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuD0YANYEeuPeLddo3BW7g" name="read" specification="_wn7-QANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuD0YQNYEeuPeLddo3BW7g" type="_wn_ooANYEeuPeLddo3BW7g" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wuD0YgNYEeuPeLddo3BW7g" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;\n\nREADING INPUT ... &quot;);
+		// Create an List of Desserts to send back
+		List&lt;Dessert> sugarRush = new ArrayList&lt;>();
+		
+		// These will get replaced with info from a file
+		// But for testing we can use these
+		sugarRush.add(new Cake(2, 60, &quot;Chocolate&quot;));
+		((Cake)(sugarRush.get(0))).setSlice(10);
+		
+		Frosting f = new Frosting(&quot;Butter Cream&quot;);
+		((Cake)(sugarRush.get(0))).setFrosting(f);;
+		
+		sugarRush.get(0).setName(&quot;Choocolatae&quot;);
+		sugarRush.add(new Cake(4, 160, &quot;Wedding&quot;));
+		sugarRush.add(new Cake(1, 10, &quot;Birthday&quot;));
+		sugarRush.add(new Cookie(60, &quot;Christmas&quot;));
+		sugarRush.add(new Cookie(80, &quot;Sugar&quot;));
+		
+		/***
+		 *  Read from file will go here
+		 */
+		
+		return sugarRush;
+
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_wn7-QANYEeuPeLddo3BW7g" name="read" isStatic="true" method="_wuD0YANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wn8lUANYEeuPeLddo3BW7g" type="_wn_ooANYEeuPeLddo3BW7g" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wn8lUQNYEeuPeLddo3BW7g" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wtoWkANYEeuPeLddo3BW7g" name="write" isStatic="true" method="_wuDNUgNYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wtoWkQNYEeuPeLddo3BW7g" name="sugarRush" type="_wtfMoANYEeuPeLddo3BW7g"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wn_ooANYEeuPeLddo3BW7g" name="Dessert" isAbstract="true">
+            <ownedAttribute xmi:id="_wtw5cANYEeuPeLddo3BW7g" name="sugarAmount">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wtw5cQNYEeuPeLddo3BW7g" value="0"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wtxggANYEeuPeLddo3BW7g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuD0YwNYEeuPeLddo3BW7g" name="Dessert" specification="_woA2wANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuD0ZANYEeuPeLddo3BW7g" name="sugarAmount">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuD0ZQNYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuD0ZgNYEeuPeLddo3BW7g" type="_wn_ooANYEeuPeLddo3BW7g" direction="return"/>
+              <language>java</language>
+              <body>this.sugarAmount = sugarAmount;
+		this.name = name;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuEbcANYEeuPeLddo3BW7g" name="bake" specification="_woBd0wNYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.println(&quot;Baking...&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_woA2wANYEeuPeLddo3BW7g" name="Dessert" visibility="package" method="_wuD0YwNYEeuPeLddo3BW7g">
+              <eAnnotations xmi:id="_woBd0ANYEeuPeLddo3BW7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_woBd0QNYEeuPeLddo3BW7g" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_woA2wQNYEeuPeLddo3BW7g" name="sugarAmount">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_woA2wgNYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_woBd0gNYEeuPeLddo3BW7g" type="_wn_ooANYEeuPeLddo3BW7g" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_woBd0wNYEeuPeLddo3BW7g" name="bake" method="_wuEbcANYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_woBd1ANYEeuPeLddo3BW7g" name="eat" isAbstract="true"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_woCE4ANYEeuPeLddo3BW7g" name="Frosting">
+            <ownedAttribute xmi:id="_wtyuoANYEeuPeLddo3BW7g" name="base">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuEbcQNYEeuPeLddo3BW7g" name="Frosting" specification="_woDTAANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuEbcgNYEeuPeLddo3BW7g" name="base">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuEbcwNYEeuPeLddo3BW7g" type="_woCE4ANYEeuPeLddo3BW7g" direction="return"/>
+              <language>java</language>
+              <body>this.base = base;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_woDTAANYEeuPeLddo3BW7g" name="Frosting" visibility="package" method="_wuEbcQNYEeuPeLddo3BW7g">
+              <eAnnotations xmi:id="_woDTAgNYEeuPeLddo3BW7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_woD6EANYEeuPeLddo3BW7g" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_woDTAQNYEeuPeLddo3BW7g" name="base">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_woD6EQNYEeuPeLddo3BW7g" type="_woCE4ANYEeuPeLddo3BW7g" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_woEhIANYEeuPeLddo3BW7g" name="Slice">
+            <ownedAttribute xmi:id="_wtzVsANYEeuPeLddo3BW7g" name="size">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuFCgANYEeuPeLddo3BW7g" name="Slice" specification="_woFvQANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuFCgQNYEeuPeLddo3BW7g" name="size">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuFCggNYEeuPeLddo3BW7g" type="_woEhIANYEeuPeLddo3BW7g" direction="return"/>
+              <language>java</language>
+              <body>this.size = size;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_woFvQANYEeuPeLddo3BW7g" name="Slice" visibility="package" method="_wuFCgANYEeuPeLddo3BW7g">
+              <eAnnotations xmi:id="_woFvQgNYEeuPeLddo3BW7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_woFvQwNYEeuPeLddo3BW7g" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_woFvQQNYEeuPeLddo3BW7g" name="size">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_woFvRANYEeuPeLddo3BW7g" type="_woEhIANYEeuPeLddo3BW7g" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_woG9YANYEeuPeLddo3BW7g" name="Bakery">
+            <ownedAttribute xmi:id="_wtz8wANYEeuPeLddo3BW7g" name="name" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wtz8wQNYEeuPeLddo3BW7g" value="&quot;GCU Bakery&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wt1K4ANYEeuPeLddo3BW7g" name="sugarRush" visibility="private" type="_wn_ooANYEeuPeLddo3BW7g" isOrdered="true" association="_wuMXQQNYEeuPeLddo3BW7g">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wt1K4QNYEeuPeLddo3BW7g" value="*"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wt1x8ANYEeuPeLddo3BW7g" value="new ArrayList&lt;>()"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuFCgwNYEeuPeLddo3BW7g" name="Bakery" specification="_woIykANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuFChANYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuFChQNYEeuPeLddo3BW7g" type="_woG9YANYEeuPeLddo3BW7g" direction="return"/>
+              <language>java</language>
+              <body>this.name = name;
+		sugarRush = DataServices.read();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuFpkANYEeuPeLddo3BW7g" name="open" specification="_woJZoQNYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>int option = -1;
+		
+		// Call UserInteface class to display menu
+		// But handle the branching of the options
+		do {
+			// get the user options
+			option = UserInterface.mainMenu(name);
+			
+			// Depending on the option, send the user to the appropriate place
+			switch (option) {
+			case 1:
+				addCake();
+				break;
+			case 2:
+				addCookie();
+				break;
+			case 3: 
+				showDesserts();
+				break;
+			case 4: 
+				updateDessert();
+				break;
+			case 5: 
+				deleteDessert();
+				break;
+			case 0: 
+				// This is exit
+				break;
+			default:
+				System.out.println(&quot;There was a problem. Try again&quot;);
+			}
+
+		} while (option != 0);
+
+		System.out.println(&quot;Thank you for your business&quot;);
+
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuFpkQNYEeuPeLddo3BW7g" name="addCake" specification="_woKAsANYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.println(&quot;Adding a Cake ...&quot;);
+		// Add user input for Cake here
+		
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuFpkgNYEeuPeLddo3BW7g" name="addCookie" specification="_woKAsQNYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.println(&quot;Adding a Cookie ...&quot;);
+		// Add user input for Cookie here
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuGQoANYEeuPeLddo3BW7g" name="showDesserts" specification="_woKnwANYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.println(&quot;Showing all Dessert ...&quot;);	
+		UserInterface.display(sugarRush);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuGQoQNYEeuPeLddo3BW7g" name="updateDessert" specification="_woKnwQNYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.println(&quot;Adding a Dessert ...&quot;);
+		UserInterface.display(sugarRush);
+		System.out.println(&quot;Which item to update : &quot;);
+		
+		// Need to allow user to change a Dessert item
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuGQogNYEeuPeLddo3BW7g" name="deleteDessert" specification="_woKnwgNYEeuPeLddo3BW7g">
+              <language>java</language>
+              <body>System.out.println(&quot;Deleting a Dessert ...&quot;);
+		UserInterface.display(sugarRush);
+		System.out.println(&quot;Which item to delete : &quot;);	
+		
+		// Need to allow user to remove a Dessert item
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_woIykANYEeuPeLddo3BW7g" name="Bakery" visibility="package" method="_wuFCgwNYEeuPeLddo3BW7g">
+              <eAnnotations xmi:id="_woIykgNYEeuPeLddo3BW7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_woIykwNYEeuPeLddo3BW7g" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_woIykQNYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_woJZoANYEeuPeLddo3BW7g" type="_woG9YANYEeuPeLddo3BW7g" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_woJZoQNYEeuPeLddo3BW7g" name="open" method="_wuFpkANYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_woKAsANYEeuPeLddo3BW7g" name="addCake" visibility="private" method="_wuFpkQNYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_woKAsQNYEeuPeLddo3BW7g" name="addCookie" visibility="private" method="_wuFpkgNYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_woKnwANYEeuPeLddo3BW7g" name="showDesserts" visibility="private" method="_wuGQoANYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_woKnwQNYEeuPeLddo3BW7g" name="updateDessert" visibility="private" method="_wuGQoQNYEeuPeLddo3BW7g"/>
+            <ownedOperation xmi:id="_woKnwgNYEeuPeLddo3BW7g" name="deleteDessert" visibility="private" method="_wuGQogNYEeuPeLddo3BW7g"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_woL14ANYEeuPeLddo3BW7g" name="UserInterface">
+            <ownedAttribute xmi:id="_wt3AEANYEeuPeLddo3BW7g" name="sc" visibility="private" isStatic="true" type="_wtksMANYEeuPeLddo3BW7g" association="_wuNlYQNYEeuPeLddo3BW7g">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wt3AEQNYEeuPeLddo3BW7g" value="new Scanner(System.in)"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuG3sANYEeuPeLddo3BW7g" name="mainMenu" specification="_woNEAANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuG3sQNYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wuG3sgNYEeuPeLddo3BW7g" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// Since we have to return a value, need to declare outside try/catch
+		int option = 0;
+		// Using a try since we are looking for an int and user may enter a char or String
+		try {
+			System.out.println(&quot;Welcome to &quot; + name);
+			System.out.println(&quot;====================&quot;);
+			System.out.println(&quot;1) Add Cake&quot;);
+			System.out.println(&quot;2) Add Cookie&quot;);
+			System.out.println(&quot;3) See all Desserts&quot;);
+			System.out.println(&quot;4) Update a Dessert&quot;);
+			System.out.println(&quot;5) Delete a Dessert&quot;);
+			System.out.println(&quot;0) Exit&quot;);
+			System.out.println(&quot;Which option : &quot;);
+			option = sc.nextInt();
+		}
+		catch (Exception e) {
+			// If the user enters a non-integer
+			option = -1;
+		}
+		finally {
+			// Need to handle the extra line return 
+			// whether or not the sc.nextLine() worked.
+			sc.nextLine();
+		}
+
+		// Return a valid int
+		return option;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wuG3swNYEeuPeLddo3BW7g" name="display" specification="_wtqLwANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wuG3tANYEeuPeLddo3BW7g" name="sugarRush" type="_wtfMoANYEeuPeLddo3BW7g"/>
+              <language>java</language>
+              <body>System.out.println(&quot;\n\nDISPLAYING DESSERTS ...&quot;);
+		
+		int counter = 0;
+		// Printing out the menu items
+		for (Dessert item : sugarRush) {
+			System.out.println(counter++ + &quot;]&quot; + item);
+		}
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_woNEAANYEeuPeLddo3BW7g" name="mainMenu" isStatic="true" method="_wuG3sANYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_woNEAQNYEeuPeLddo3BW7g" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_woNrEANYEeuPeLddo3BW7g" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wtqLwANYEeuPeLddo3BW7g" name="display" isStatic="true" method="_wuG3swNYEeuPeLddo3BW7g">
+              <ownedParameter xmi:id="_wtqLwQNYEeuPeLddo3BW7g" name="sugarRush" type="_wtfMoANYEeuPeLddo3BW7g"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wuKiEANYEeuPeLddo3BW7g" name="" memberEnd="_wuKiEQNYEeuPeLddo3BW7g _wtt2IANYEeuPeLddo3BW7g">
+            <ownedEnd xmi:id="_wuKiEQNYEeuPeLddo3BW7g" name="" type="_wnpDUANYEeuPeLddo3BW7g" association="_wuKiEANYEeuPeLddo3BW7g"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wuLwMANYEeuPeLddo3BW7g" name="" memberEnd="_wuLwMQNYEeuPeLddo3BW7g _wtvEQANYEeuPeLddo3BW7g">
+            <ownedEnd xmi:id="_wuLwMQNYEeuPeLddo3BW7g" name="" type="_wnpDUANYEeuPeLddo3BW7g" association="_wuLwMANYEeuPeLddo3BW7g"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wuMXQQNYEeuPeLddo3BW7g" name="" memberEnd="_wuMXQgNYEeuPeLddo3BW7g _wt1K4ANYEeuPeLddo3BW7g">
+            <ownedEnd xmi:id="_wuMXQgNYEeuPeLddo3BW7g" name="" type="_woG9YANYEeuPeLddo3BW7g" association="_wuMXQQNYEeuPeLddo3BW7g"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wuNlYQNYEeuPeLddo3BW7g" name="" memberEnd="_wuNlYgNYEeuPeLddo3BW7g _wt3AEANYEeuPeLddo3BW7g">
+            <ownedEnd xmi:id="_wuNlYgNYEeuPeLddo3BW7g" name="" type="_woL14ANYEeuPeLddo3BW7g" association="_wuNlYQNYEeuPeLddo3BW7g"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wmw5kANYEeuPeLddo3BW7g" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wmw5kQNYEeuPeLddo3BW7g" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wtdXcANYEeuPeLddo3BW7g" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_wtfMoANYEeuPeLddo3BW7g" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wtksMANYEeuPeLddo3BW7g" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_wa95QANYEeuPeLddo3BW7g">
+      <eAnnotations xmi:id="_wbCKsANYEeuPeLddo3BW7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_wbGcIANYEeuPeLddo3BW7g" base_Package="_u-3HoANYEeuPeLddo3BW7g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wnvJ8ANYEeuPeLddo3BW7g" base_Element="_wnui4QNYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Annotations xmi:id="_wnwYEANYEeuPeLddo3BW7g" base_Element="_wnui4QNYEeuPeLddo3BW7g">
+    <annotations xmi:id="_wnw_IANYEeuPeLddo3BW7g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wn468ANYEeuPeLddo3BW7g" base_Element="_wn4T4QNYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Annotations xmi:id="_wn468QNYEeuPeLddo3BW7g" base_Element="_wn4T4QNYEeuPeLddo3BW7g">
+    <annotations xmi:id="_wn468gNYEeuPeLddo3BW7g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_wtelkANYEeuPeLddo3BW7g" base_Element="_wtdXcANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Reference xmi:id="_wtgawANYEeuPeLddo3BW7g" base_Element="_wtfMoANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Reference xmi:id="_wtl6UANYEeuPeLddo3BW7g" base_Element="_wtksMANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Generics xmi:id="_wto9oANYEeuPeLddo3BW7g" genericsValue="Dessert" base_Element="_wtoWkQNYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Generics xmi:id="_wtsA8ANYEeuPeLddo3BW7g" genericsValue="Dessert" base_Element="_wtqLwQNYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wtudMANYEeuPeLddo3BW7g" base_Element="_wtt2IANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wtvrUANYEeuPeLddo3BW7g" base_Element="_wtvEQANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wt0j0ANYEeuPeLddo3BW7g" base_Element="_wtz8wANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wt2ZAANYEeuPeLddo3BW7g" base_Element="_wt1K4ANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wt3nIANYEeuPeLddo3BW7g" base_Element="_wt3AEANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Reference xmi:id="_wuLJIANYEeuPeLddo3BW7g" base_Element="_wuKiEANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Reference xmi:id="_wuMXQANYEeuPeLddo3BW7g" base_Element="_wuLwMANYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Reference xmi:id="_wuNlYANYEeuPeLddo3BW7g" base_Element="_wuMXQQNYEeuPeLddo3BW7g"/>
+  <UMLLabProfile:Reference xmi:id="_wuOMcANYEeuPeLddo3BW7g" base_Element="_wuNlYQNYEeuPeLddo3BW7g"/>
+</xmi:XMI>

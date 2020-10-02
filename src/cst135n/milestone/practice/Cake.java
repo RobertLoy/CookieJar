@@ -41,9 +41,17 @@ public class Cake extends Dessert{
 	public void eat() {
 		System.out.print("Eating with a fork... ");
 	}
+
+	// Special printout used for menu
+	@Override
+	public String toMenuString() {
+		return super.getName() + " cake with " + numLayers + " layer(s).";		
+	}
 	
 	// Common @Override Methods
-	public String toString() {		
-		return super.getName() + " cake with " + numLayers + " layer(s).";
+	@Override
+	public String toString() {
+		return "Cake [numLayers=" + numLayers + ", slice=" + slice + ", frosting=" + frosting + ", getSugarAmount()="
+				+ getSugarAmount() + ", getName()=" + getName() + "]";
 	}
 }

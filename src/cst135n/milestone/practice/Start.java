@@ -8,6 +8,7 @@ public class Start {
 		
 		Bakery bakery = new Bakery("GCU Bakery");
 		bakery.open();
+		bakery.close();
 
 	}
 }

@@ -1,7 +1,9 @@
 package cst135n.milestone.practice;
 
+import java.io.Serializable;
+
 //Child of Dessert
-public class Cookie extends Dessert {
+public class Cookie extends Dessert implements Serializable{
 	
 	// Class Attributes
 	private String mixIn;

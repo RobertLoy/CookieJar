@@ -1,6 +1,8 @@
 package cst135n.milestone.practice;
 
-public class Slice {
+import java.io.Serializable;
+
+public class Slice implements Serializable {
 
 	// Normally these object would have more than one
 	// attribute, otherwise they could just be attributes in

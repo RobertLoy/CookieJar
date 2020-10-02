@@ -1,6 +1,8 @@
 package cst135n.milestone.practice;
 
-public class Frosting {
+import java.io.Serializable;
+
+public class Frosting implements Serializable {
 	
 	// Normally these object would have more than one
 	// attribute, otherwise they could just ne attributes in

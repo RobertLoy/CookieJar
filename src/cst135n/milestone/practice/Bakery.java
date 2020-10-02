@@ -14,9 +14,16 @@ public class Bakery {
 
 	Bakery (String name){
 		this.name = name;
+		// Read in objects from a file
 		sugarRush = DataServices.read();
 	}
 
+	
+	public void close() {
+		// Write all objects to a file
+		DataServices.write(sugarRush);
+	}
+	
 	public void open() {
 		int option = -1;
 		

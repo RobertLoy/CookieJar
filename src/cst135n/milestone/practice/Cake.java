@@ -1,7 +1,9 @@
 package cst135n.milestone.practice;
 
+import java.io.Serializable;
+
 // Child of Dessert
-public class Cake extends Dessert{
+public class Cake extends Dessert implements Serializable{
 	
 	// Class Attributes
 	private int numLayers;

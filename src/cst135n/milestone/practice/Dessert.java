@@ -1,8 +1,10 @@
 package cst135n.milestone.practice;
 
+import java.io.Serializable;
+
 //Parent of Cookie and Cake 
 // Abstract so you CANNOT make an object of Dessert
-public abstract class Dessert {
+public abstract class Dessert implements Serializable {
 
 	// Class Attributes
 	private int sugarAmount = 0;

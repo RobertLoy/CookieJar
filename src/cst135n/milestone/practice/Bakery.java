@@ -126,9 +126,20 @@ public class Bakery {
 	}
 	
 	private void updateDessert() {
-		System.out.println("Adding a Dessert ...");
+		System.out.println("Updating a Dessert ...");
 		UserInterface.displayAll(sugarRush);
 		System.out.println("Which item to update : ");
+		int opt = sc.nextInt();
+		sc.nextLine();
+		if (sugarRush.get(opt) instanceof Cake) {
+			System.out.println("You picked a CAKE to edit");	
+		}
+		else if (sugarRush.get(opt) instanceof Cookie) {
+			System.out.println("You picked a COOKIE to edit");				
+		}
+		else {
+			System.out.println("You picked a generic Dessert to edit");
+		}
 		
 		// Need to allow user to change a Dessert item
 	}

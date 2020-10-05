@@ -1,5 +1,6 @@
 package cst135n.milestone.practice;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -22,6 +23,8 @@ public class UserInterface {
 			System.out.println("4) See details of a Dessert");
 			System.out.println("5) Update a Dessert");
 			System.out.println("6) Delete a Dessert");
+			System.out.println("7) Search for a Dessert");
+			System.out.println("8) Sort all Dessert (Optional)");
 			System.out.println("0) Exit");
 			System.out.println("Which option : ");
 			option = sc.nextInt();
@@ -45,6 +48,26 @@ public class UserInterface {
 		
 		int counter = 0;
 		// Printing out the menu items
+		for (Dessert item : sugarRush) {
+			System.out.println(counter++ + "]" + item.toMenuString());
+		}
+	}
+	
+	public static void searchResults(List<Dessert> sugarRush, String text) {
+		
+		int counter = 0;
+		// Printing out the menu items
+		for (Dessert item : sugarRush) {
+			if (item.getName().contains(text))
+				System.out.println(counter++ + "]" + item.toMenuString());
+		}
+	}
+	
+	public static void sortResults(List<Dessert> sugarRush) {
+		
+		int counter = 0;
+		// Printing out the menu items
+		Collections.sort(sugarRush, Dessert.nameComparator);
 		for (Dessert item : sugarRush) {
 			System.out.println(counter++ + "]" + item.toMenuString());
 		}

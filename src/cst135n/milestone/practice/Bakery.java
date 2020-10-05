@@ -53,6 +53,12 @@ public class Bakery {
 			case 6: 
 				deleteDessert();
 				break;
+			case 7: 
+				searchDesserts();
+				break;
+			case 8: 
+				sortDesserts();
+				break;	
 			case 0: 
 				// This is exit
 				break;
@@ -136,6 +142,24 @@ public class Bakery {
 		sugarRush.remove(delete);
 		
 		// Need to allow user to remove a Dessert item
+	}
+	
+	private void searchDesserts() {
+		System.out.println("Searching for a Dessert ...");
+		System.out.println("What named item to search for : ");
+		String search = sc.nextLine();
+		UserInterface.searchResults(sugarRush, search);
+
+		
+		// Need to allow user to search for a Dessert item
+	}
+	
+	private void sortDesserts() {
+		System.out.println("Sorting Desserts ...");
+		UserInterface.sortResults(sugarRush);
+
+		
+		// Need to allow user to sort Desserts by name
 	}
 
 }
